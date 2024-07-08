@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "LeonMMcoset",
+  base : ".",
   description: "This a website made by LeonMMcoset",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
