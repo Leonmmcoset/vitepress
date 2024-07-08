@@ -6,6 +6,11 @@ export default defineConfig({
   base : "/vitepress",
   lang: 'zh-CN',
   description: "这是一个由LeonMMcoset制作的一个网站。",
+  locales: {
+    root: {
+      label: '中文',
+      lang: 'zh'
+    },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
