@@ -19,7 +19,6 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '列表', link: '/liststart' }
     ],
-
     sidebar: [
       { text: '起始', link: '/start' },
       {
@@ -28,7 +27,8 @@ export default defineConfig({
           { text: '列表起始', link: '/liststart' },
           { text: '7180 MTR网站', link: '/mtr7180' }
         ]
-      }
+      },
+      { text: '人员列表', link: '/player'}
     ],
 
     socialLinks: [
