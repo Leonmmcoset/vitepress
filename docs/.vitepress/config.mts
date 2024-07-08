@@ -10,7 +10,8 @@ export default defineConfig({
     root: {
       label: '中文',
       lang: 'zh'
-    },
+    }
+  }
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
