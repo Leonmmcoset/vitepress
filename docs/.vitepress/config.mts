@@ -14,6 +14,7 @@ export default defineConfig({
 
     sidebar: [
       {
+        { text: '起始', link: '/start' }
         text: '列表',
         items: [
           { text: '7180 MTR网站', link: '/mtr7180' }
