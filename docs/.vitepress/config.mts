@@ -1,3 +1,4 @@
+//The config of this website.
 import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
@@ -11,7 +12,7 @@ export default defineConfig({
       label: '中文',
       lang: 'zh'
     }
-  }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
