@@ -5,7 +5,7 @@ export default defineConfig({
   title: "LeonMMcoset",
   base : "/vitepress",
   lang: 'zh-CH',
-  description: "这是一个由LeonMMcoset制作的一个网站。"
+  description: "这是一个由LeonMMcoset制作的一个网站。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
