@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LeonMMcoset",
   base : "/vitepress",
-  lang: 'zh-CH',
+  lang: 'zh-CN',
   description: "这是一个由LeonMMcoset制作的一个网站。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
