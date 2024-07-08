@@ -10,7 +10,7 @@ export default defineConfig({
   locales: {
     root: {
       label: '中文',
-      lang: 'cn'
+      lang: 'zh'
     }
   },
   themeConfig: {
