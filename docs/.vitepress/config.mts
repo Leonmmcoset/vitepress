@@ -4,26 +4,25 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "LeonMMcoset",
   base : "/vitepress",
-  description: "This a website made by LeonMMcoset",
+  description: "这是一个由LeonMMcoset制作的一个网站。",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '列表', link: '/liststart' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '列表',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '7180 MTR网站', link: '/mtr7180' }
         ]
       }
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/leonmmcoset/vitepress' }
     ]
   }
 })

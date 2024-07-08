@@ -4,22 +4,17 @@ layout: home
 
 hero:
   name: "LeonMMcoset"
-  text: "This a website made by LeonMMcoset"
-  tagline: My great project tagline
+  text: "这是一个由LeonMMcoset制作的一个网站。"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 起始
+      link: /start
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 列表
+      link: /liststart
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 快速
+    details: 这个网站可以帮助你到你想要去的网站。
 ---
 
