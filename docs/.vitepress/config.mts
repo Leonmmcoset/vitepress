@@ -17,6 +17,7 @@ export default defineConfig({
       {
         text: '列表',
         items: [
+          { text: '列表起始', link: '/liststart' }
           { text: '7180 MTR网站', link: '/mtr7180' }
         ]
       }
