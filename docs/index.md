@@ -16,5 +16,9 @@ hero:
 features:
   - title: 快速
     details: 这个网站可以帮助你到你想要去的网站。
+  - title: 帮助
+    details: 这里的东西都能帮助你。
+  - title: 无广告
+    details: 这里的东西没有广告！
 ---
 
