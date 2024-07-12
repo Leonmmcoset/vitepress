@@ -1,7 +1,7 @@
 # 成员列表
 这是LeonMMcoset团队和跟LeonMMcoset合作的成员信息。
 <script setup>
-import { Team } from 'vitepress/theme'
+import { VPTeamMembers } from 'vitepress/theme'
 
 const members = [
   {
@@ -25,4 +25,4 @@ const members = [
   }
 ]
 </script>
-<Team size="medium" :members="members" />
+<VPTeamMembers size="medium" :members="members" />
