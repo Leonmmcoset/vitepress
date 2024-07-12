@@ -10,16 +10,16 @@ const members = [
     title: '团队首领',
     links: [
       { icon: 'github', link: 'https://github.com/leonmmcoset' },
-      { icon: '/images/qq', link: '/qq' }
+      { icon: '/images/qq.svg', link: '/qq' }
     ]
   },
   {
-    avater: 'https://i2.hdslb.com/bfs/face/2a93a76fda5ba8dce474f5a6926af226a5248fc4.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif',
+    avater: '/images/Yeonmmcoset.png',
     name: 'Yeonmmcoset',
     title: '团队成员'
   },
   {
-    avater: 'https://i0.hdslb.com/bfs/face/member/noface.jpg@240w_240h_1c_1s_!web-avatar-space-header.avif',
+    avater: '/images/hushu.png',
     name: 'hushu',
     title: '团队成员'
   }
