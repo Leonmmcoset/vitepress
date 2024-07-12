@@ -17,7 +17,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://github.com/Leonmmcoset/vitepress/blob/a88d8bd7d9b16a4a80fa95557b59c13833c276ab/docs/images/Yeonmmcoset.png',
+    avatar: 'https://github.com/Leonmmcoset/vitepress/blob/3c0cb70b27473534b7c10e6bd729e4980c81429c/images/Yeonmmcoset.png',
     name: 'Yeonmmcoset',
     title: '团队成员',
     links: [
@@ -26,7 +26,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://github.com/Leonmmcoset/vitepress/blob/a88d8bd7d9b16a4a80fa95557b59c13833c276ab/docs/images/hushu.png',
+    avatar: 'https://github.com/Leonmmcoset/vitepress/blob/3c0cb70b27473534b7c10e6bd729e4980c81429c/images/hushu.png',
     name: 'hushu',
     title: '团队成员',
     links: [
