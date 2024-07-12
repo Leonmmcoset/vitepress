@@ -2,7 +2,6 @@
 这是LeonMMcoset团队和跟LeonMMcoset合作的成员信息。
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
-
 const members = [
   {
     avatar: 'https://www.github.com/leonmmcoset.png',
