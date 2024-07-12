@@ -14,12 +14,12 @@ const members = [
     ]
   },
   {
-    avater: '/images/Yeonmmcoset.png',
+    avater: '/docs/images/Yeonmmcoset.png',
     name: 'Yeonmmcoset',
     title: '团队成员'
   },
   {
-    avater: '/images/hushu.png',
+    avater: '/docs/images/hushu.png',
     name: 'hushu',
     title: '团队成员'
   }
