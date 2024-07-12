@@ -10,18 +10,25 @@ const members = [
     title: '团队首领',
     links: [
       { icon: 'github', link: 'https://github.com/leonmmcoset' },
-      { icon: '/images/qq.svg', link: '/qq' }
+      { icon: 'https://github.com/Leonmmcoset/vitepress/blob/a88d8bd7d9b16a4a80fa95557b59c13833c276ab/docs/images/qq.svg', link: '/qq' },
+      { icon: 'https://github.com/Leonmmcoset/vitepress/blob/a41183150da1b3708aa4ba9b4808a6761692962c/docs/images/bilibili.svg', link: ''}
     ]
   },
   {
-    avater: '/docs/images/Yeonmmcoset.png',
+    avater: 'https://github.com/Leonmmcoset/vitepress/blob/a88d8bd7d9b16a4a80fa95557b59c13833c276ab/docs/images/Yeonmmcoset.png',
     name: 'Yeonmmcoset',
-    title: '团队成员'
+    title: '团队成员',
+    links: [
+      { icon: 'https://github.com/Leonmmcoset/vitepress/blob/a41183150da1b3708aa4ba9b4808a6761692962c/docs/images/bilibili.svg', link: 'https://space.bilibili.com/3546601461123155?spm_id_from=333.337.0.0'}
+    ]
   },
   {
-    avater: '/docs/images/hushu.png',
+    avater: 'https://github.com/Leonmmcoset/vitepress/blob/a88d8bd7d9b16a4a80fa95557b59c13833c276ab/docs/images/hushu.png',
     name: 'hushu',
-    title: '团队成员'
+    title: '团队成员',
+    links: [
+      { icon: 'https://github.com/Leonmmcoset/vitepress/blob/a41183150da1b3708aa4ba9b4808a6761692962c/docs/images/bilibili.svg', link: 'https://space.bilibili.com/3546650649823421?spm_id_from=333.337.0.0'}
+    ]
   }
 ]
 </script>
