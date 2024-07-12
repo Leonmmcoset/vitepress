@@ -17,7 +17,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '列表', link: '/liststart' }
+      { text: '列表', link: '/liststart' },
+      { text: '制作', link: '/made/start'}
     ],
     sidebar: [
       { text: '起始', link: '/start' },
@@ -26,6 +27,13 @@ export default defineConfig({
         items: [
           { text: '列表起始', link: '/liststart' },
           { text: '7180 MTR网站', link: '/mtr7180' }
+        ]
+      },
+      {
+        text : '制作',
+        items: [
+          { text: '制作起始', link: '/made/start'},
+          { text: 'CS:2D', link: '/made/cs2d'}
         ]
       },
       { text: '人员列表', link: '/player'}
