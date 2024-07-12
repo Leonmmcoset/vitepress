@@ -17,7 +17,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://github.com/Leonmmcoset/vitepress/blob/3c0cb70b27473534b7c10e6bd729e4980c81429c/images/Yeonmmcoset.png?raw=true',
+    avatar: 'https://github.com/Leonmmcoset/vitepress/blob/main/images/Yeonmmcoset-2.png?raw=true',
     name: 'Yeonmmcoset',
     title: '团队成员',
     links: [
