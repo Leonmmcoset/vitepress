@@ -1,5 +1,6 @@
 //The config of this website.
 import { defineConfig } from 'vitepress'
+import { bilibili, email, qq } from './icon.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -38,9 +39,11 @@ export default defineConfig({
       },
       { text: '人员列表', link: '/player'}
     ],
-
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/leonmmcoset/vitepress' }
+      { icon: 'github', link: 'https://github.com/leonmmcoset/vitepress' },
+      { icon: {svg: email}, link: 'mailto:leonmmcoset@outlook.com' },
+      { icon: {svg: qq}, link: '/qq' },
+      { icon :{svg: bilibili}, link: 'https://space.bilibili.com/245143694?spm_id_from=333.337.0.0'}
     ]
   }
 })
