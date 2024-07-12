@@ -1,6 +1,7 @@
 # 成员列表
 这是LeonMMcoset团队和跟LeonMMcoset合作的成员信息。
 <script setup>
+//The player list of LeonMMcoset Team.
 import { VPTeamMembers } from 'vitepress/theme'
 import { bilibili, email, qq } from './icon.mjs'
 const members = [
