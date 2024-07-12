@@ -3,7 +3,7 @@
 <script setup>
 //The player list of LeonMMcoset Team.
 import { VPTeamMembers } from 'vitepress/theme'
-import { bilibili, email, qq } from './icon.mjs'
+import { bilibili, email, qq } from '/.vitepress/icon.mjs'
 const members = [
   {
     avatar: 'https://www.github.com/leonmmcoset.png',
