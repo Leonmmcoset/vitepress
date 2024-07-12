@@ -12,6 +12,8 @@ hero:
     - theme: alt
       text: 列表
       link: /liststart
+    - theme: 制作
+      link: /made/start
 
 features:
   - title: 快速
