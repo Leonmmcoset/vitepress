@@ -41,7 +41,9 @@ export default defineConfig({
               }
             }
           }
-        },
+        }
+      }
+    },
     sidebar: [
       { text: '起始', link: '/start' },
       {
