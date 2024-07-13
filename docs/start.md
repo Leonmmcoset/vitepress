@@ -3,7 +3,16 @@
 你可以使用侧边栏来到达你想到达的页面。
 :::
 
-这个网站是开源的。
+<div>
+        <a href="github.com/leonmmcoset/"><img src="https://img.shields.io/badge/Author-LeonMMcoset-blue"></a>
+        <a href="vitepress.dev/"><img src="https://img.shields.io/badge/Powered_By-Vitepress-green"></a>
+        <a href="pages.github.com/"><img src="https://img.shields.io/badge/Deploy_By-Github_Pages-orange"></a>
+</div>
+
+这个网站是开源的，你可以在[GitHub源代码页面](https://github.com/leonmmcoset/vitepress)来查看代码。
+
+- [问题追踪器](https://github.com/leonmmcoset/vitepress/issues)
+- [讨论](https://github.com/Leonmmcoset/vitepress/discussions)
 
 1.[列表](https://leonmmcoset.github.io/vitepress/liststart.html)
 
