@@ -4,7 +4,7 @@
 :::
 
 <div>
-        <a href="github.com/leonmmcoset/"><img src="https://img.shields.io/badge/Author-LeonMMcoset-blue"></a><a href="vitepress.dev/"><img src="https://img.shields.io/badge/Powered_By-Vitepress-green"></a><a href="pages.github.com/"><img src="https://img.shields.io/badge/Deploy_By-Github_Pages-orange"></a>
+        <a href="github.com/leonmmcoset/"><img src="https://img.shields.io/badge/Author-LeonMMcoset-blue?style=for-the-badge"></a><a href="vitepress.dev/"><img src="https://img.shields.io/badge/Powered_By-Vitepress-green?style=for-the-badge"></a><a href="pages.github.com/"><img src="https://img.shields.io/badge/Deploy_By-Github_Pages-orange?style=for-the-badge"></a>
 </div>
 
 这个网站是开源的，你可以在[GitHub源代码页面](https://github.com/leonmmcoset/vitepress)来查看代码。
