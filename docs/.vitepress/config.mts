@@ -23,7 +23,7 @@ export default defineConfig({
     ],
     search: {
       provider: 'local'
-    }
+    },
     sidebar: [
       { text: '起始', link: '/start' },
       {
