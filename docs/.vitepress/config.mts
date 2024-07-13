@@ -21,6 +21,9 @@ export default defineConfig({
       { text: '列表', link: '/liststart' },
       { text: '制作', link: '/made/start'}
     ],
+    search: {
+      provider: 'local'
+    }
     sidebar: [
       { text: '起始', link: '/start' },
       {
