@@ -10,13 +10,13 @@ h1 {
 }
 
 :root {
-    --vp-c-brand-1: #0073ff;
-    --vp-c-brand-2: #0073ff;
-    --vp-c-brand-3: #0073ff;
+    --vp-c-brand-1: #008cff;
+    --vp-c-brand-2: #008cff;
+    --vp-c-brand-3: #008cff;
 }
   
 .dark {
-    --vp-c-brand-1: #0073ff;
-    --vp-c-brand-2: #0073ff;
-    --vp-c-brand-3: #0073ff;
+    --vp-c-brand-1: #008cff;
+    --vp-c-brand-2: #008cff;
+    --vp-c-brand-3: #008cff;
 }
