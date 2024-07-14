@@ -63,7 +63,7 @@ export default defineConfig({
       { text: '成员列表', link: '/player'}
     ],
     editLink: {
-      pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
+      pattern: 'https://github.com/leonmmcoset/vitepress/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
