@@ -41,7 +41,7 @@
   // 获取当前配色方案
   const { isDark } = useData();
 </script>
-<style lang="scss" scoped>
+<style scoped>
   .comment {
     margin-top: 16px;
   }
