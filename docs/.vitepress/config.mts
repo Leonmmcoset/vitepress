@@ -60,12 +60,12 @@ export default defineConfig({
           { text: 'CS:2D', link: '/made/cs2d'}
         ]
       },
-      { text: '人员列表', link: '/player'}
+      { text: '成员列表', link: '/player'}
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/leonmmcoset/vitepress' },
       { icon: {svg: email}, link: 'mailto:leonmmcoset@outlook.com' },
-      { icon: {svg: qq}, link: '/qq' },
+      { icon: {svg: qq}, link: '/vitepress/qq' },
       { icon :{svg: bilibili}, link: 'https://space.bilibili.com/245143694?spm_id_from=333.337.0.0'}
     ]
   }

@@ -11,7 +11,7 @@ const members = [
     title: '团队首领',
     links: [
       { icon: 'github', link: 'https://github.com/leonmmcoset' },
-      { icon: {svg: qq}, link: '/qq' },
+      { icon: {svg: qq}, link: '/vitepress/qq' },
       { icon: {svg: bilibili}, link: 'https://space.bilibili.com/245143694?spm_id_from=333.337.0.0'},
       { icon: {svg: email}, link: 'mailto:leonmmcoset@outlook.com'}
     ]
