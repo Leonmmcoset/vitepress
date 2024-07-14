@@ -19,7 +19,14 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '列表', link: '/liststart' },
-      { text: '制作', link: '/made/start'}
+      { text: '制作', link: '/made/start'},
+      {
+        text: '更多社交链接'
+        items: [
+           { text: 'Steam',link: 'https://steamcommunity.com/profiles/76561198294176606/' },
+           { text: 'Modrinth',link: 'https://modrinth.com/user/LeonMMcoset'}
+        ]
+      }
     ],
     search: {
       provider: 'local',
