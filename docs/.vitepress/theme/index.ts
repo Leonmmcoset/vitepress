@@ -12,4 +12,4 @@ export default {
         'doc-after': () => h(Comment),
       });
     },
-  };
+}
