@@ -69,7 +69,7 @@ export default defineConfig({
 
     footer: {
       message: '基于 MIT 许可发布',
-      copyright: `版权所有 © 2019-${new Date().getFullYear()} 尤雨溪`
+      copyright: `版权所有 © 2021-${new Date().getFullYear()} LeonMMcoset`
     },
 
     docFooter: {
