@@ -4,6 +4,7 @@ import { bilibili, email, qq } from './icon.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true
   title: "LeonMMcoset",
   base : "/vitepress",
   lang: 'zh-CN',
@@ -71,7 +72,8 @@ export default defineConfig({
       {
         text: '教程',
         items: [
-          { text:'教程起始', link: '/teach/start'}
+          { text: '教程起始', link: '/teach/start'}
+          { text: 'MTR服务器', link: '/teach/mtr7180'}
         ]
       },
       { text: '成员列表', link: '/player'}
