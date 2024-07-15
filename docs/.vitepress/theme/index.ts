@@ -29,7 +29,7 @@ export default {
       //如果为false，则表示未启用
       //您可以使用“comment:true”序言在页面上单独启用它
       true
-    );
+    )
 //     <script src="https://giscus.app/client.js"
 //     data-repo="leonmmcoset/vitepress"
 //     data-repo-id="R_kgDOMTSP1w"
