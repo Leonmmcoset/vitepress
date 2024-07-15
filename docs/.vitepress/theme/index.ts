@@ -2,13 +2,7 @@ import DefaultTheme from 'vitepress/theme';
 import giscusTalk from 'vitepress-plugin-comment-with-giscus';
 import { useData, useRoute } from 'vitepress';
 import './var.css'
-import './vp-code-group'
-
-import DefaultTheme from 'vitepress/theme';
-import giscusTalk from 'vitepress-plugin-comment-with-giscus';
-import { useData, useRoute } from 'vitepress';
-import './var.css'
-import './vp-code-group'
+import './vp-code-group.css'
 
 export default {
   extends: DefaultTheme,
