@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import giscusTalk from 'vitepress-plugin-comment-with-giscus'
 import './var.css'
 import './vp-code-group.css'
 
