@@ -20,6 +20,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '列表', link: '/liststart' },
       { text: '制作', link: '/made/start'},
+      { text: '教程', link: '/teach/start'},
       {
         text: '更多社交链接',
         items: [
@@ -32,7 +33,7 @@ export default defineConfig({
       provider: 'local',
       options: {
         locales: {
-          zh: {
+          root: {
             translations: {
               button: {
                 buttonText: '搜索文档',
@@ -61,10 +62,16 @@ export default defineConfig({
         ]
       },
       {
-        text : '制作',
+        text: '制作',
         items: [
           { text: '制作起始', link: '/made/start'},
           { text: 'CS:2D', link: '/made/cs2d'}
+        ]
+      },
+      {
+        text: '教程',
+        items: [
+          { text:'教程起始', link: '/teach/start'}
         ]
       },
       { text: '成员列表', link: '/player'}
