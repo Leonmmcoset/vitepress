@@ -42,7 +42,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install package
-        run: npm install @giscus/vue
+        run: npm i vitepress-plugin-comment-with-giscus
       - name: Install dependencies
         run: npm ci # 或 pnpm install / yarn install / bun install
       - name: Build with VitePress
