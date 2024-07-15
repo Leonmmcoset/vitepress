@@ -19,17 +19,29 @@ export default {
   
       giscusTalk(
         {
-          repo: '[在此输入仓库]',
-          repoId: '[在此输入仓库 ID]',
-          category: '[在此输入分类名]', // 默认: `General`
-          categoryId: '[在此输入分类 ID]',
+          repo: 'leonmmcoset/vitepress',
+          repoId: 'R_kgDOMTSP1w',
+          category: 'Announcements', // 默认: `General`
+          categoryId: 'DIC_kwDOMTSP184CgvyG',
           mapping: 'pathname', // 默认: `pathname`
-          inputPosition: 'bottom', // 默认: `top`
+          inputPosition: 'top', // 默认: `top`
           lang: 'zh-CN', // 默认: `zh-CN`
           lightTheme: 'light', // 默认: `light`
-          darkTheme: 'dark', // 默认: `transparent_dark`
+          darkTheme: 'preferred_color_scheme', // 默认: `transparent_dark`
           loading: 'eager',
         },
+        //src="https://giscus.app/client.js"
+        //data-repo="leonmmcoset/vitepress"
+        //data-repo-id="R_kgDOMTSP1w"
+        //data-category="Announcements"
+        //data-category-id="DIC_kwDOMTSP184CgvyG"
+        //data-mapping="pathname"
+        //data-strict="0"
+        //data-reactions-enabled="1"
+        //data-emit-metadata="0"
+        //data-input-position="top"
+        //data-theme="preferred_color_scheme"
+        //data-lang="zh-CN"
         {
           frontmatter,
           route,
