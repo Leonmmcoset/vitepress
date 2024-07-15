@@ -4,7 +4,7 @@ import { bilibili, email, qq } from './icon.mjs'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  ignoreDeadLinks: true
+  ignoreDeadLinks: true,
   title: "LeonMMcoset",
   base : "/vitepress",
   lang: 'zh-CN',
