@@ -1,57 +1,48 @@
-import DefaultTheme from 'vitepress/theme'
-import giscusTalk from 'vitepress-plugin-comment-with-giscus'
+import DefaultTheme from 'vitepress/theme';
+import giscusTalk from 'vitepress-plugin-comment-with-giscus';
+import { useData, useRoute } from 'vitepress';
 import './var.css'
-import './vp-code-group.css'
+import './vp-code-group'
 
 export default {
-    ...DefaultTheme,
-    Layout() {
-      return h(DefaultTheme.Layout, null, {
-        'aside-top': () => h(Weather),
-        'aside-outline-after': () => h(Donate),
-        'doc-top': () => h(ImagePreviewLayout),
-        'doc-before': () => h(Music),
-        // 'doc-after': () => h(Comment),
-      });
-    },
-    setup() {
-      const { frontmatter } = toRefs(useData());
-      const route = useRoute();
-  
-      giscusTalk(
-        {
-          repo: 'leonmmcoset/vitepress',
-          repoId: 'R_kgDOMTSP1w',
-          category: 'Announcements', // 默认: `General`
-          categoryId: 'DIC_kwDOMTSP184CgvyG',
-          mapping: 'pathname', // 默认: `pathname`
-          inputPosition: 'top', // 默认: `top`
-          lang: 'zh-CN', // 默认: `zh-CN`
-          lightTheme: 'light', // 默认: `light`
-          darkTheme: 'preferred_color_scheme', // 默认: `transparent_dark`
-          loading: 'eager',
-        },
-        //src="https://giscus.app/client.js"
-        //data-repo="leonmmcoset/vitepress"
-        //data-repo-id="R_kgDOMTSP1w"
-        //data-category="Announcements"
-        //data-category-id="DIC_kwDOMTSP184CgvyG"
-        //data-mapping="pathname"
-        //data-strict="0"
-        //data-reactions-enabled="1"
-        //data-emit-metadata="0"
-        //data-input-position="top"
-        //data-theme="preferred_color_scheme"
-        //data-lang="zh-CN"
-        {
-          frontmatter,
-          route,
-        },
-        // 是否全部页面启动评论区。
-        // 默认为 true，表示启用，此参数可忽略；
-        // 如果为 false，表示不启用。
-        // 可以在页面使用 `comment: true` 前言单独启用
-        true
-      );
-    },
-  };
+  extends: DefaultTheme,
+
+  setup() {
+    // Get frontmatter and route
+    const { frontmatter } = useData();
+    const route = useRoute();
+        
+    // giscus配置
+    giscusTalk({
+      repo: 'leonmmcoset/vitepress', //仓库
+      repoId: 'R_kgDOMTSP1w', //仓库ID
+      category: 'Announcements', // 讨论分类
+      categoryId: 'DIC_kwDOMTSP184CgvyG', //讨论分类ID
+      mapping: 'pathname',
+      inputPosition: 'top',
+      lang: 'zh-CN',
+      }, 
+      {
+        frontmatter, route
+      },
+      //默认值为true，表示已启用，此参数可以忽略；
+      //如果为false，则表示未启用
+      //您可以使用“comment:true”序言在页面上单独启用它
+      true
+    );
+//     <script src="https://giscus.app/client.js"
+//     data-repo="leonmmcoset/vitepress"
+//     data-repo-id="R_kgDOMTSP1w"
+//     data-category="Announcements"
+//     data-category-id="DIC_kwDOMTSP184CgvyG"
+//     data-mapping="pathname"
+//     data-strict="0"
+//     data-reactions-enabled="1"
+//     data-emit-metadata="0"
+//     data-input-position="top"
+//     data-theme="preferred_color_scheme"
+//     data-lang="zh-CN"
+//     crossorigin="anonymous"
+//     async>
+// </script>
+}
