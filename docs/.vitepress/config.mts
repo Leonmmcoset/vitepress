@@ -15,6 +15,15 @@ export default defineConfig({
       lang: 'zh'
     }
   },
+  markdown: {
+    container: {
+      tipLabel: '提示',
+      warningLabel: '警告',
+      dangerLabel: '危险',
+      infoLabel: '信息',
+      detailsLabel: '详细信息'
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -70,9 +79,9 @@ export default defineConfig({
         ]
       },
       {
-        text: '教程',
+        text: '服务器',
         items: [
-          { text: '教程起始', link: '/teach/start'},
+          { text: '起始', link: '/teach/start'},
           { text: 'MTR服务器', link: '/teach/mtr7180'}
         ]
       },
